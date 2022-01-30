@@ -1,6 +1,6 @@
 # SqueezeNet-Implementation
 
-This repository attempts to replicate the SqueezeNet architecture using TensorFlow discussed in the paper: "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size".
+This repository attempts to replicate the SqueezeNet architecture using TensorFlow discussed in the research paper: "SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size".
 
 The paper can be read [here.](https://arxiv.org/pdf/1602.07360.pdf)
 
@@ -39,4 +39,5 @@ python train.py
 
 ## Additional Information
 
-This repository attempts to replicate the architecture only. Performance may vary based on parameters implemented. Can change the same and experiment using the   ```train.py```  module.
+- This repository attempts to replicate the architecture only. Performance may vary based on parameters implemented. Can change the same and experiment using the   ```train.py```  module.
+- A sample usage of this can be found in the [Notebook here.](https://github.com/RohanMathur17/SqueezeNet-Implementation/blob/main/SqueezeNet_Implementation.ipynb)
