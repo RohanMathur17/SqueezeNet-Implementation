@@ -16,6 +16,17 @@ The official implementation of this paper can be found [here.](https://github.co
 5. Python 3.x ( Specifically not python 3.8, anything else works)
 ```
 
+## Architecture Implemented
+
+1. Fire Module
+
+<img src="https://miro.medium.com/max/875/1*dVaL1bcv5Ewpz-wen7IXCA.png" width="700">
+
+
+2. SqueezeNet Module
+
+<img src="https://pytorch.org/assets/images/squeezenet.png" width="700">
+
 ## Working
 
 The data used for this implementation was picked up from the Kaggle Dataset - [Soil Types](https://www.kaggle.com/prasanshasatpathy/soil-types)
