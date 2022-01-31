@@ -48,6 +48,20 @@ base_dir = '/content/gdrive/MyDrive/SqueezeNet/data/'
 python train.py
 ```
 
+## Results
+
+The model was trained on the Soil Data, which contained five categories of soil with around 30-35 images in each category. The dataset was split into 75% training data, 25% test data. Model training parameters were as follows - 
+```
+- Optimizer: Adam
+- Learning Rate: 0.001
+- No. of Epochs: 500
+- Metrics: Categorical_Accuracy
+```
+Final figures for ```training_loss, training_categorical_accuracy, validation_loss, validation_categorical_accuracy ``` are given in the following image-
+
+<img src="https://github.com/RohanMathur17/SqueezeNet-Implementation/blob/main/images/results.png" width="700">
+
+
 ## Additional Information
 
 - This repository attempts to replicate the architecture only. Performance may vary based on parameters implemented. Can change the same and experiment using the   ```train.py```  module.
